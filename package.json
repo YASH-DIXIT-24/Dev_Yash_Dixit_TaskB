@@ -1,0 +1,21 @@
+{
+  "name": "microscraper",
+  "version": "1.0.0",
+  "description": "Lightweight web scraper endpoint using Next.js and Playwright",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "playwright install chromium"
+  },
+  "keywords": ["scraper", "playwright", "nextjs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^16.0.3",
+    "playwright": "^1.56.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
